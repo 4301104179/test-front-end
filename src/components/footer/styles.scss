@@ -1,0 +1,65 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-subscription {
+        width: 50%;
+        margin-left: 50px;
+
+        .footer-subscription-heading {
+            font-weight: bolder;
+            font-family: "Montserrat", sans-serif;
+            font-size: 10px;
+        }
+
+        .footer-subscription-text {
+            width: 296px;
+            font-size: 13px;
+            font-family: "Noto Sans KR";
+        }
+
+        .footer-subscription-text1 {
+            margin-top: 40px;
+            font-size: 10px;
+            font-family: "Noto Sans KR";
+            font-weight: lighter;
+        }
+    }
+
+    .footer-links {
+
+        .footer-link-wrapper {
+            display: flex;
+            height: 150px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+
+            .footer-link-items {
+                display: flex;
+                flex-direction: column;
+                width: 140px;
+                font-family: "Noto Sans KR";
+                font-size: 10px;
+                align-items: flex-start;
+                margin-right: -40px;
+
+                .footer-title {
+                    font-weight: bolder;
+                    font-family: "Montserrat", sans-serif;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .link-option {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+
+            .option {
+                margin-right: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

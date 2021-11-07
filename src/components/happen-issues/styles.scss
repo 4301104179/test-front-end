@@ -1,0 +1,167 @@
+.background-happend-issue {
+    background-color: #fccb05;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-happend-issue {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 80px 0 0px 0;
+
+        .title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.83;
+            letter-spacing: normal;
+            text-align: left;
+            color: var(--dark-brown);
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            width: 62%;
+            font-size: 11px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        button {
+            margin-top: 40px;
+            background-color: #fccb05;
+        }
+    }
+
+    .icon-object03 {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 40px;
+        right: 120px;
+    }
+
+    .icon-object02 {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 110px;
+        right: 120px;
+    }
+
+    .product {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        justify-content: center;
+        top: 360px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: blue;
+
+        .Rectangle-678 {
+            min-width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            background-color: #ff5500;
+            border: solid 2px #111111;
+
+            .whpn-issue {
+                width: 150px;
+                height: 97px;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 1.04;
+                letter-spacing: normal;
+                text-align: center;
+                color: #110e03;
+                text-transform: uppercase;
+            }
+
+            .new-img01 {
+                width: 90px;
+                height: 90px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .Rectangle-678-copy {
+            min-width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+            background-color: #110e03;
+
+            .brand-title {
+                font-size: 30px;
+                font-weight: 800;
+                color: white;
+            }
+
+            &.Rectangle-678-copy1 {
+                min-width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 300px;
+                background-color: #ff5500;
+            }
+
+            .brand-img {
+                width: 100%;
+                height: 90%;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+
+    .iconObject3-2x {
+        position: absolute;
+        width: 8%;
+        height: 15%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 70px;
+        left: 180px;
+    }
+
+    .icon-object04 {
+        position: absolute;
+        width: 7%;
+        height: 15%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 350px;
+        left: 280px;
+    }
+
+    .icon-object05 {
+        position: absolute;
+        width: 7%;
+        height: 15%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 50px;
+        right: 240px;
+    }
+}

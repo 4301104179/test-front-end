@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+KR:wght@100&display=swap');
+
+:root {
+    --black: #1a1a1a;
+  --goldenrod: #fccb05;
+  --tomato: #ea4913;
+  --cerulean: #0565bb;
+  --black-two: #111;
+  --white-two: #eee;
+  --kelley-green: #00833f;
+  --lavender: #c6b8f5;
+  --dark-brown: #110e03;
+  --bright-orange-two: #f50;
+  --mango: #ffb225;
+  --tomato-two: #e84c33;
+  --bluish: #2584b3;
+  --sand: #dabb5e;
+  --copper: #c73c27;
+  --mango-two: #ffb227;
+  --eggshell: #fffbd8;
+  --tomato-three: #e0412a;
+  --light-grey: #ced1c8;
+  --pinkish-grey: #d4c4ab;
+  --cloudy-blue: #b1d1cf;
+  --light-grey-two: #d8dad7;
+  --black-three: #222;
+  --mid-blue: #245fc5;
+  --greyish: #a9a9a9;
+  --sun-yellow: #fcd32a;
+  --golden-yellow: #ffc717;
+  --black-four: #333;
+  --dark: #1c2027;
+  --white-three: #f4f4f4;
+  --brownish-grey: #666;
+  --pumpkin-orange: #fa7b26;
+  --pinkish-grey-two: #ccc8c6;
+  --white-four: #f1f1f1;
+  --white: #fff;
+  --bright-orange: #f96400;
+}
+
+.Text-Style-13 {
+    font-family: 'Montserrat';
+    font-size: 171.5px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+.Text-Style-4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two);
+}
+.Text-Style-12 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 0.54;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-two);
+}
+.Text-Style-5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--bright-orange);
+}
+.Text-Style-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    text-align: left;
+    color: var(--sun-yellow);
+}
+.Text-Style-2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+}
+.Text-Style-17 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark-brown);
+}
+.Text-Style-14 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-two);
+}
+.Text-Style {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+.Text-Style-6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--bright-orange);
+}
+.Text-Style-7 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: right;
+    color: #abacaf;
+}
+.Text-Style-8 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+}
+.Text-Style-9 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-brown);
+}
+.Text-Style-10 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--sun-yellow);
+}
+.Text-Style-11 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}

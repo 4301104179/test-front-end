@@ -1,0 +1,155 @@
+.background-what-happened {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-what-happened {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 80px 0 0px 0;
+
+        .title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.83;
+            letter-spacing: normal;
+            text-align: left;
+            color: var(--dark-brown);
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            width: 60%;
+            font-size: 14px;
+            text-align: center;
+            font-family: "Montserrat";
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: normal;
+            text-align: center;
+            color: var(--black-two);
+        }
+
+        button {
+            margin-top: 40px;
+        }
+    }
+
+    .video {
+        position: absolute;
+        width: 900px;
+        height: 600px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 320px;
+        left: 230px;
+        z-index: 50;
+    }
+
+    .video_object_05 {
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 0px;
+        left: 170px;
+    }
+
+    .video_object_07 {
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 100px;
+        right: 100px;
+    }
+
+    .video_object_06 {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 180px;
+        right: 160px;
+    }
+
+    .video_object_03 {
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 870px;
+        left: 150px;
+        z-index: 20;
+    }
+
+    .video_object_01 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 950px;
+        left: 240px;
+        z-index: 20;
+    }
+
+    .video_object_04 {
+        position: absolute;
+        width: 195px;
+        height: 380px;
+        background-size: cover;
+        background-position: right;
+        top: 200px;
+        left: 0px;
+        z-index: 20;
+    }
+
+    .video_object_02 {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 950px;
+        right: 400px;
+        z-index: 20;
+    }
+
+    .video_object_08 {
+        position: absolute;
+        width: 270px;
+        height: 380px;
+        background-size: cover;
+        background-position: left;
+        top: 660px;
+        right: 0;
+        z-index: 20;
+    }
+
+    .video_object_09 {
+        position: absolute;
+        width: 110px;
+        height: 300px;
+        background-size: cover;
+        background-position: left;
+        top: 440px;
+        right: 0;
+        z-index: 10;
+    }
+}

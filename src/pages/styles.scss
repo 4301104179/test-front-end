@@ -1,0 +1,56 @@
+.home-page {
+    width: 100%;
+
+    .background-banner {
+        height: 800px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .background-intro {
+        height: 400px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-intro {
+            position: absolute;
+            width: 30%;
+            top: 120px;
+            left: 120px;
+
+            .What-happened {
+                display: block;
+                color: white;
+                font-size: 25px;
+                font-weight: 800;
+                margin: 0px 0px 15px 0px;
+                line-height: 1.2;
+                letter-spacing: 5px;
+                height: 40px;
+                text-transform: uppercase;
+            }
+
+            .How-to-create-mobile-optimized-videos-in-minutes-Not-a-designer {
+                color: white;
+                font-size: 15px;
+                height: 125px;
+                line-height: 1.75;
+                font-weight: normal;
+                letter-spacing: normal;
+            }
+        }
+    }
+
+    
+}
